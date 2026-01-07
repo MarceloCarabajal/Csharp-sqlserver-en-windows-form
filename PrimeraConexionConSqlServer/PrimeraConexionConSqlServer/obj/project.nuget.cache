@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X8j72EGRXP4=",
+  "dgSpecHash": "8hapfS5pyik=",
   "success": true,
-  "projectFilePath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
+  "projectFilePath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marce\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\marce\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

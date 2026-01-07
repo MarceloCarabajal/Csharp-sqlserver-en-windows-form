@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj": {}
+    "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj": {}
   },
   "projects": {
-    "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj": {
+    "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
+        "projectUniqueName": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
         "projectName": "PrimeraConexionConSqlServer",
-        "projectPath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
+        "projectPath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
         "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
-        "outputPath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\adonet\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\obj\\",
+        "outputPath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver+winform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

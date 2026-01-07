@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimeraConexionConSqlServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+982e32b2d1abcc2763a9d18e6e0f1ff75dcca999")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimeraConexionConSqlServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimeraConexionConSqlServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

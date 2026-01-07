@@ -38,5 +38,30 @@ namespace PrimeraConexionConSqlServer
             sda.Fill(tabla);
             grilla.DataSource = tabla;
         }
+
+        public static void filtradoDatos(string nombreProcedure, string nombreParametro, string valorParametro, DataGridView grilla)
+        {
+            SqlCommand cmd = new SqlCommand(nombreProcedure, cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue(nombreParametro, valorParametro);
+            DataTable tabla = new DataTable();
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            sda.Fill(tabla);
+            grilla.DataSource = tabla;
+        }
+
+        public static void llenarComboBox(string nombreProcedure, ComboBox combo, string displayMember = "Nombre", string valueMember = "Id")
+        {
+            SqlCommand cmd = new SqlCommand(nombreProcedure, cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable tabla = new DataTable();
+            sda.Fill(tabla);
+         
+            combo.DataSource = tabla;
+            combo.DisplayMember = displayMember;
+            combo.ValueMember = valueMember;
+        }
     }
 }

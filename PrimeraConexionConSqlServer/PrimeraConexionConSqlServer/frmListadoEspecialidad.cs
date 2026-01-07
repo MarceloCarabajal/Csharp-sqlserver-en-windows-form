@@ -30,5 +30,16 @@ namespace PrimeraConexionConSqlServer
             //sda.Fill(tabla);
             //dgvEspecialidad.DataSource = tabla;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void filtrar(object sender, EventArgs e)
+        {
+            string nombre = txtNombre.Text;
+            SQL.filtradoDatos("uspListarEspecialidadPorNombre", "@NOMBRE", nombre, dgvEspecialidad);
+        }
     }
 }
