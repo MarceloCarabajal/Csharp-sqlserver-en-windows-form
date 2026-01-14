@@ -1,6 +1,6 @@
 ﻿namespace PrimeraConexionConSqlServer
 {
-    partial class frmListadoEspecialidad
+    partial class frmListadoDoctor
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvEspecialidad = new DataGridView();
-            txtNameLabel = new Label();
-            txtNombre = new TextBox();
+            dgvDoctor = new DataGridView();
+            rbApPaterno = new RadioButton();
+            rbApMaterno = new RadioButton();
+            txtValor = new TextBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             btnNuevo = new Button();
             btnEditar = new Button();
             btnEliminar = new Button();
             btnImprimir = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvDoctor).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // dgvEspecialidad
+            // dgvDoctor
             // 
-            dgvEspecialidad.AllowUserToAddRows = false;
-            dgvEspecialidad.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEspecialidad.Location = new Point(12, 140);
-            dgvEspecialidad.Name = "dgvEspecialidad";
-            dgvEspecialidad.ReadOnly = true;
-            dgvEspecialidad.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvEspecialidad.Size = new Size(615, 298);
-            dgvEspecialidad.TabIndex = 0;
+            dgvDoctor.AllowUserToAddRows = false;
+            dgvDoctor.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDoctor.Location = new Point(12, 131);
+            dgvDoctor.Name = "dgvDoctor";
+            dgvDoctor.ReadOnly = true;
+            dgvDoctor.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvDoctor.Size = new Size(660, 317);
+            dgvDoctor.TabIndex = 0;
+            dgvDoctor.CellContentClick += dgvDoctor_CellContentClick;
             // 
-            // txtNameLabel
+            // rbApPaterno
             // 
-            txtNameLabel.AutoSize = true;
-            txtNameLabel.Location = new Point(12, 104);
-            txtNameLabel.Name = "txtNameLabel";
-            txtNameLabel.Size = new Size(135, 15);
-            txtNameLabel.TabIndex = 1;
-            txtNameLabel.Text = "Nombre de especialidad";
-            txtNameLabel.Click += label1_Click;
+            rbApPaterno.AutoSize = true;
+            rbApPaterno.Location = new Point(13, 93);
+            rbApPaterno.Name = "rbApPaterno";
+            rbApPaterno.Size = new Size(113, 19);
+            rbApPaterno.TabIndex = 1;
+            rbApPaterno.TabStop = true;
+            rbApPaterno.Text = "Apellido Paterno";
+            rbApPaterno.UseVisualStyleBackColor = true;
             // 
-            // txtNombre
+            // rbApMaterno
             // 
-            txtNombre.Location = new Point(153, 101);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(345, 23);
-            txtNombre.TabIndex = 2;
-            txtNombre.TextChanged += filtrar;
+            rbApMaterno.AutoSize = true;
+            rbApMaterno.Location = new Point(146, 93);
+            rbApMaterno.Name = "rbApMaterno";
+            rbApMaterno.Size = new Size(117, 19);
+            rbApMaterno.TabIndex = 2;
+            rbApMaterno.TabStop = true;
+            rbApMaterno.Text = "Apellido Materno";
+            rbApMaterno.UseVisualStyleBackColor = true;
+            // 
+            // txtValor
+            // 
+            txtValor.Location = new Point(296, 89);
+            txtValor.Name = "txtValor";
+            txtValor.Size = new Size(360, 23);
+            txtValor.TabIndex = 3;
+            txtValor.TextChanged += filtrar;
             // 
             // flowLayoutPanel1
             // 
@@ -75,10 +89,10 @@
             flowLayoutPanel1.Controls.Add(btnEditar);
             flowLayoutPanel1.Controls.Add(btnEliminar);
             flowLayoutPanel1.Controls.Add(btnImprimir);
-            flowLayoutPanel1.Location = new Point(12, 24);
+            flowLayoutPanel1.Location = new Point(13, 12);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(680, 28);
-            flowLayoutPanel1.TabIndex = 7;
+            flowLayoutPanel1.TabIndex = 6;
             // 
             // btnNuevo
             // 
@@ -116,19 +130,20 @@
             btnImprimir.Text = "Imprimir";
             btnImprimir.UseVisualStyleBackColor = true;
             // 
-            // frmListadoEspecialidad
+            // frmListadoDoctor
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(flowLayoutPanel1);
-            Controls.Add(txtNombre);
-            Controls.Add(txtNameLabel);
-            Controls.Add(dgvEspecialidad);
-            Name = "frmListadoEspecialidad";
-            Text = "frmListadoEspecialidad";
-            Load += filtrar;
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).EndInit();
+            Controls.Add(txtValor);
+            Controls.Add(rbApMaterno);
+            Controls.Add(rbApPaterno);
+            Controls.Add(dgvDoctor);
+            Name = "frmListadoDoctor";
+            Text = "frmListadoDoctor";
+            Load += frmListadoDoctor_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvDoctor).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -136,9 +151,10 @@
 
         #endregion
 
-        private DataGridView dgvEspecialidad;
-        private Label txtNameLabel;
-        private TextBox txtNombre;
+        private DataGridView dgvDoctor;
+        private RadioButton rbApPaterno;
+        private RadioButton rbApMaterno;
+        private TextBox txtValor;
         private FlowLayoutPanel flowLayoutPanel1;
         private Button btnNuevo;
         private Button btnEditar;

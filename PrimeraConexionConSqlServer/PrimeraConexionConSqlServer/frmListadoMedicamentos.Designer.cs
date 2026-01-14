@@ -1,6 +1,6 @@
 ﻿namespace PrimeraConexionConSqlServer
 {
-    partial class frmListadoEspecialidad
+    partial class frmListadoMedicamentos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvEspecialidad = new DataGridView();
-            txtNameLabel = new Label();
-            txtNombre = new TextBox();
+            dgvMedicamentos = new DataGridView();
+            rbNombre = new RadioButton();
+            rbConcentracion = new RadioButton();
+            txtMedicamentos = new TextBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             btnNuevo = new Button();
             btnEditar = new Button();
             btnEliminar = new Button();
             btnImprimir = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMedicamentos).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // dgvEspecialidad
+            // dgvMedicamentos
             // 
-            dgvEspecialidad.AllowUserToAddRows = false;
-            dgvEspecialidad.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEspecialidad.Location = new Point(12, 140);
-            dgvEspecialidad.Name = "dgvEspecialidad";
-            dgvEspecialidad.ReadOnly = true;
-            dgvEspecialidad.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvEspecialidad.Size = new Size(615, 298);
-            dgvEspecialidad.TabIndex = 0;
+            dgvMedicamentos.AllowUserToAddRows = false;
+            dgvMedicamentos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMedicamentos.Location = new Point(12, 158);
+            dgvMedicamentos.Name = "dgvMedicamentos";
+            dgvMedicamentos.ReadOnly = true;
+            dgvMedicamentos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvMedicamentos.Size = new Size(612, 280);
+            dgvMedicamentos.TabIndex = 0;
             // 
-            // txtNameLabel
+            // rbNombre
             // 
-            txtNameLabel.AutoSize = true;
-            txtNameLabel.Location = new Point(12, 104);
-            txtNameLabel.Name = "txtNameLabel";
-            txtNameLabel.Size = new Size(135, 15);
-            txtNameLabel.TabIndex = 1;
-            txtNameLabel.Text = "Nombre de especialidad";
-            txtNameLabel.Click += label1_Click;
+            rbNombre.AutoSize = true;
+            rbNombre.Location = new Point(12, 118);
+            rbNombre.Name = "rbNombre";
+            rbNombre.Size = new Size(69, 19);
+            rbNombre.TabIndex = 1;
+            rbNombre.TabStop = true;
+            rbNombre.Text = "Nombre";
+            rbNombre.UseVisualStyleBackColor = true;
             // 
-            // txtNombre
+            // rbConcentracion
             // 
-            txtNombre.Location = new Point(153, 101);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(345, 23);
-            txtNombre.TabIndex = 2;
-            txtNombre.TextChanged += filtrar;
+            rbConcentracion.AutoSize = true;
+            rbConcentracion.Location = new Point(98, 118);
+            rbConcentracion.Name = "rbConcentracion";
+            rbConcentracion.Size = new Size(103, 19);
+            rbConcentracion.TabIndex = 2;
+            rbConcentracion.TabStop = true;
+            rbConcentracion.Text = "Concentracion";
+            rbConcentracion.UseVisualStyleBackColor = true;
+            // 
+            // txtMedicamentos
+            // 
+            txtMedicamentos.Location = new Point(207, 114);
+            txtMedicamentos.Name = "txtMedicamentos";
+            txtMedicamentos.Size = new Size(305, 23);
+            txtMedicamentos.TabIndex = 3;
+            txtMedicamentos.TextChanged += filtrar;
             // 
             // flowLayoutPanel1
             // 
@@ -116,19 +129,20 @@
             btnImprimir.Text = "Imprimir";
             btnImprimir.UseVisualStyleBackColor = true;
             // 
-            // frmListadoEspecialidad
+            // frmListadoMedicamentos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(flowLayoutPanel1);
-            Controls.Add(txtNombre);
-            Controls.Add(txtNameLabel);
-            Controls.Add(dgvEspecialidad);
-            Name = "frmListadoEspecialidad";
-            Text = "frmListadoEspecialidad";
-            Load += filtrar;
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).EndInit();
+            Controls.Add(txtMedicamentos);
+            Controls.Add(rbConcentracion);
+            Controls.Add(rbNombre);
+            Controls.Add(dgvMedicamentos);
+            Name = "frmListadoMedicamentos";
+            Text = "frmListadoMedicamentos";
+            Load += frmListadoMedicamentos_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvMedicamentos).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -136,9 +150,10 @@
 
         #endregion
 
-        private DataGridView dgvEspecialidad;
-        private Label txtNameLabel;
-        private TextBox txtNombre;
+        private DataGridView dgvMedicamentos;
+        private RadioButton rbNombre;
+        private RadioButton rbConcentracion;
+        private TextBox txtMedicamentos;
         private FlowLayoutPanel flowLayoutPanel1;
         private Button btnNuevo;
         private Button btnEditar;

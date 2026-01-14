@@ -1,6 +1,6 @@
 ﻿namespace PrimeraConexionConSqlServer
 {
-    partial class frmListadoEspecialidad
+    partial class frmListadoPaciente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,46 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvEspecialidad = new DataGridView();
-            txtNameLabel = new Label();
-            txtNombre = new TextBox();
+            dgvPaciente = new DataGridView();
+            label1 = new Label();
+            cbOpcion = new ComboBox();
+            label2 = new Label();
+            txtValor = new TextBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             btnNuevo = new Button();
             btnEditar = new Button();
             btnEliminar = new Button();
             btnImprimir = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPaciente).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
             // 
-            // dgvEspecialidad
+            // dgvPaciente
             // 
-            dgvEspecialidad.AllowUserToAddRows = false;
-            dgvEspecialidad.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEspecialidad.Location = new Point(12, 140);
-            dgvEspecialidad.Name = "dgvEspecialidad";
-            dgvEspecialidad.ReadOnly = true;
-            dgvEspecialidad.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvEspecialidad.Size = new Size(615, 298);
-            dgvEspecialidad.TabIndex = 0;
+            dgvPaciente.AllowUserToAddRows = false;
+            dgvPaciente.AllowUserToDeleteRows = false;
+            dgvPaciente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPaciente.Location = new Point(1, 134);
+            dgvPaciente.Name = "dgvPaciente";
+            dgvPaciente.ReadOnly = true;
+            dgvPaciente.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvPaciente.Size = new Size(797, 304);
+            dgvPaciente.TabIndex = 0;
             // 
-            // txtNameLabel
+            // label1
             // 
-            txtNameLabel.AutoSize = true;
-            txtNameLabel.Location = new Point(12, 104);
-            txtNameLabel.Name = "txtNameLabel";
-            txtNameLabel.Size = new Size(135, 15);
-            txtNameLabel.TabIndex = 1;
-            txtNameLabel.Text = "Nombre de especialidad";
-            txtNameLabel.Click += label1_Click;
+            label1.AutoSize = true;
+            label1.Location = new Point(9, 100);
+            label1.Name = "label1";
+            label1.Size = new Size(176, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Seleccione Criterio de Busqueda";
+            label1.Click += label1_Click;
             // 
-            // txtNombre
+            // cbOpcion
             // 
-            txtNombre.Location = new Point(153, 101);
-            txtNombre.Name = "txtNombre";
-            txtNombre.Size = new Size(345, 23);
-            txtNombre.TabIndex = 2;
-            txtNombre.TextChanged += filtrar;
+            cbOpcion.FormattingEnabled = true;
+            cbOpcion.Items.AddRange(new object[] { "Nombre", "Apellido Paterno", "Apellido Materno" });
+            cbOpcion.Location = new Point(191, 96);
+            cbOpcion.Name = "cbOpcion";
+            cbOpcion.Size = new Size(154, 23);
+            cbOpcion.TabIndex = 2;
+            cbOpcion.SelectedIndexChanged += cbOpcion_SelectedIndexChanged;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(364, 99);
+            label2.Name = "label2";
+            label2.Size = new Size(74, 15);
+            label2.TabIndex = 3;
+            label2.Text = "Ingrese Valor";
+            label2.Click += label2_Click;
+            // 
+            // txtValor
+            // 
+            txtValor.Location = new Point(444, 96);
+            txtValor.Name = "txtValor";
+            txtValor.Size = new Size(184, 23);
+            txtValor.TabIndex = 4;
+            txtValor.TextChanged += filtrar;
             // 
             // flowLayoutPanel1
             // 
@@ -75,7 +98,7 @@
             flowLayoutPanel1.Controls.Add(btnEditar);
             flowLayoutPanel1.Controls.Add(btnEliminar);
             flowLayoutPanel1.Controls.Add(btnImprimir);
-            flowLayoutPanel1.Location = new Point(12, 24);
+            flowLayoutPanel1.Location = new Point(1, 12);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Size = new Size(680, 28);
             flowLayoutPanel1.TabIndex = 7;
@@ -116,19 +139,21 @@
             btnImprimir.Text = "Imprimir";
             btnImprimir.UseVisualStyleBackColor = true;
             // 
-            // frmListadoEspecialidad
+            // frmListadoPaciente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(flowLayoutPanel1);
-            Controls.Add(txtNombre);
-            Controls.Add(txtNameLabel);
-            Controls.Add(dgvEspecialidad);
-            Name = "frmListadoEspecialidad";
-            Text = "frmListadoEspecialidad";
-            Load += filtrar;
-            ((System.ComponentModel.ISupportInitialize)dgvEspecialidad).EndInit();
+            Controls.Add(txtValor);
+            Controls.Add(label2);
+            Controls.Add(cbOpcion);
+            Controls.Add(label1);
+            Controls.Add(dgvPaciente);
+            Name = "frmListadoPaciente";
+            Text = "frmListadoPaciente";
+            Load += frmListadoPaciente_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvPaciente).EndInit();
             flowLayoutPanel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -136,9 +161,11 @@
 
         #endregion
 
-        private DataGridView dgvEspecialidad;
-        private Label txtNameLabel;
-        private TextBox txtNombre;
+        private DataGridView dgvPaciente;
+        private Label label1;
+        private ComboBox cbOpcion;
+        private Label label2;
+        private TextBox txtValor;
         private FlowLayoutPanel flowLayoutPanel1;
         private Button btnNuevo;
         private Button btnEditar;

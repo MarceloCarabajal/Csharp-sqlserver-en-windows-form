@@ -133,7 +133,6 @@ C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionC
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.csproj.AssemblyReference.cache
-C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.Form1.resources
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmListadoEspecialidad.resources
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.csproj.GenerateResource.cache
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.GeneratedMSBuildEditorConfig.editorconfig
@@ -149,3 +148,7 @@ C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionC
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\ref\PrimeraConexionConSqlServer.dll
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmConsultaMedicamentoPorFormaFarmaceutica.resources
 C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmConsultarMedicoPorEspecialidad.resources
+C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmListadoMedicamentos.resources
+C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmListadoClinica.resources
+C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmListadoDoctor.resources
+C:\disco_a\dev\education\udemy\backend\csharp\sqlserver+winform\PrimeraConexionConSqlServer\PrimeraConexionConSqlServer\obj\Debug\net8.0-windows\PrimeraConexionConSqlServer.frmListadoPaciente.resources

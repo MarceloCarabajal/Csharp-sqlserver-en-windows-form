@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmconsultarmedicoporespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmconsultarmedicoporespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadopaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadopaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmconsultarmedicoporespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmconsultarmedicoporespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadomedicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadomedicamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadoespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadoespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadodoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadodoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmconsultamedicamentoporformafarmaceutica.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadoespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadoespecialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\primeraconexionconsqlserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\primeraconexionconsqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\primeraconexionconsqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|c:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\primeraconexionconsqlserver\\primeraconexionconsqlserver\\frmlistadoclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F63735C-456E-4106-BC52-5F021BF3D66C}|PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj|solutionrelative:primeraconexionconsqlserver\\frmlistadoclinica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,142 +39,62 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmConsultarMedicoPorEspecialidad.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs*",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA6wBwAAAAJAAAAAAAAAA==",
+              "Title": "frmListadoPaciente.cs [Design]",
+              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoPaciente.cs",
+              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoPaciente.cs",
+              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoPaciente.cs [Design]*",
+              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoPaciente.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T20:26:38.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T23:28:46.272Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frmConsultarMedicoPorEspecialidad.cs [Design]",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs [Design]*",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmConsultarMedicoPorEspecialidad.cs [Design]*",
+              "Title": "frmListadoMedicamentos.cs [Design]",
+              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoMedicamentos.cs",
+              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoMedicamentos.cs",
+              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoMedicamentos.cs [Design]*",
+              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoMedicamentos.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T20:12:35.297Z",
+              "WhenOpened": "2026-01-14T23:26:20.324Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Program.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\Program.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Program.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "frmListadoEspecialidad.cs [Design]",
+              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
+              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
+              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs [Design]",
+              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:45:56.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T23:25:01.171Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Title": "frmListadoDoctor.cs [Design]",
+              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoDoctor.cs",
+              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoDoctor.cs",
+              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoDoctor.cs [Design]",
+              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoDoctor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T19:46:33.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-14T23:04:10.045Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmConsultaMedicamentoPorFormaFarmaceutica.cs [Design]",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs [Design]",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.cs [Design]",
+              "Title": "frmListadoClinica.cs [Design]",
+              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoClinica.cs",
+              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoClinica.cs",
+              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoClinica.cs [Design]",
+              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoClinica.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T19:43:56.771Z",
+              "WhenOpened": "2026-01-14T22:53:23.256Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SQL.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\SQL.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\SQL.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\SQL.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\SQL.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAADwvzsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-30T18:40:49.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmConsultaMedicamentoPorFormaFarmaceutica.Designer.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.Designer.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.Designer.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.Designer.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmConsultaMedicamentoPorFormaFarmaceutica.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T18:10:01.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmListadoEspecialidad.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\frmListadoEspecialidad.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBgAAABzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T14:40:19.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Form1.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\Form1.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Form1.cs",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAxwCMAAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:16:01.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Form1.cs",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\Form1.cs",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\Form1.cs [Design]",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-29T19:03:12.968Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PrimeraConexionConSqlServer.csproj",
-              "DocumentMoniker": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
-              "RelativeDocumentMoniker": "PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
-              "ToolTip": "C:\\disco_a\\dev\\education\\udemy\\backend\\csharp\\sqlserver\u002Bwinform\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
-              "RelativeToolTip": "PrimeraConexionConSqlServer\\PrimeraConexionConSqlServer.csproj",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-29T19:57:39.778Z",
-              "EditorCaption": ""
             }
           ]
         }
