@@ -52,5 +52,22 @@ namespace PrimeraConexionConSqlServer
             txtIdClinica.Text = "";
         }
 
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            frmPopupClinica ofrmPopupClinica = new frmPopupClinica();
+            ofrmPopupClinica.accion = "Nuevo";
+            ofrmPopupClinica.ShowDialog();
+            if(ofrmPopupClinica.DialogResult == DialogResult.OK)
+            {
+                listar();
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            frmPopupClinica ofrmPopupClinica = new frmPopupClinica();
+            ofrmPopupClinica.accion = "Editar";
+            ofrmPopupClinica.ShowDialog();
+        }
     }
 }

@@ -51,6 +51,7 @@
             dgvMedicamentos.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvMedicamentos.Size = new Size(612, 280);
             dgvMedicamentos.TabIndex = 0;
+            dgvMedicamentos.CellContentClick += dgvMedicamentos_CellContentClick;
             // 
             // rbNombre
             // 
@@ -101,6 +102,7 @@
             btnNuevo.TabIndex = 0;
             btnNuevo.Text = "Nuevo";
             btnNuevo.UseVisualStyleBackColor = true;
+            btnNuevo.Click += btnNuevo_Click;
             // 
             // btnEditar
             // 
@@ -110,6 +112,7 @@
             btnEditar.TabIndex = 1;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnEliminar
             // 

@@ -32,8 +32,31 @@ namespace PrimeraConexionConSqlServer
             }
             else
             {
-                 SQL.filtradoDatos("uspConsultarMedicamentoPorConcentracion", "@concentracion", valor, dgvMedicamentos);
+                SQL.filtradoDatos("uspConsultarMedicamentoPorConcentracion", "@concentracion", valor, dgvMedicamentos);
             }
+        }
+
+        private void dgvMedicamentos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnNuevo_Click(object sender, EventArgs e)
+        {
+            frmPopupMedicamentos ofrmPopupMedicamentos = new frmPopupMedicamentos();
+            ofrmPopupMedicamentos.accion = "Nuevo";
+            ofrmPopupMedicamentos.ShowDialog();
+            if(ofrmPopupMedicamentos.DialogResult == DialogResult.OK)
+            {
+                SQL.ListarProcedureQSL("uspListarMedicamentoPrograma", dgvMedicamentos);
+            }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            frmPopupMedicamentos ofrmPopupMedicamentos = new frmPopupMedicamentos();
+            ofrmPopupMedicamentos.accion = "Editar";
+            ofrmPopupMedicamentos.ShowDialog();
         }
     }
 }
